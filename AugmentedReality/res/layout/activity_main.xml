@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+        	android:id="@+id/container_main" >
+            
+            <FrameLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:id="@+id/map_cont" >
+				//xmlns:android="http://schemas.android.com/apk/res/android"
+		        <fragment
+		            android:id="@+id/map"
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            class="com.google.android.gms.maps.SupportMapFragment" />
+		         
+		
+			</FrameLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

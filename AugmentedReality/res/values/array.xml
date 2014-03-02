@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Arraylocationtype">
+        <item >rent</item>
+        <item >hostel</item>
+    </string-array>
+    <string-array name="LocationDetailTabs">
+        <item >Details</item>
+        <item >Map View</item>
+        <item >Gallery</item>
+    </string-array>
+</resources>
